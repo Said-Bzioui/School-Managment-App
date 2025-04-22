@@ -4,7 +4,7 @@ import { useFetch } from "../api/fetching";
 import { Ellipsis } from "lucide-react";
 
 
-export function AttendanceChart() {
+export function AttendancesChart() {
   const { data } = useFetch("/absences");
 
   const AbsenceCount = (type,day) => {
