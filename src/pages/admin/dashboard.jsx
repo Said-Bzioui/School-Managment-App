@@ -4,7 +4,7 @@ import FinanceChart from "../../components/FinanceChart";
 import EventCalendar from "../../components/EventCalendar";
 import Announcements from "../../components/Announcements";
 import { useFetch } from "../../api/fetching";
-import { AttendancesChart } from "../../components/attendanceChart";
+import { AttendancesChart } from "../../components/AttendanceChart";
 
 export function Dashboard() {
     const { data:TeacherData, isLoading : LoadingTeacher, error :ErrorTeacher} = useFetch("/teachers");
