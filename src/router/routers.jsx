@@ -26,7 +26,7 @@ export const router = createBrowserRouter(
                 // Admin routes
                 {
                     children: [
-                        { path: '/admin', element: <Dashboard /> },
+                        { path: '/', element: <Dashboard /> },
                         { path: '/admin/students', element: <StudentsList /> },
                         { path: '/admin/teachers', element: <TeachersList /> },
                         { path: '/admin/parents', element: <ParentsList /> },
