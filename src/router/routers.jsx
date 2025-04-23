@@ -18,16 +18,6 @@ import EventsList from "../pages/list/EventsList";
 import AnnouncementsList from "../pages/list/AnnouncementsList";
 import ProfilePage from "../pages/admin/profile";
 
-// // Student routes
-// import StudentDashboard from "../pages/student/Dashboard";
-// import StudentAssignments from "../pages/student/Assignments";
-// import StudentResults from "../pages/student/Results";
-
-// // Teacher routes
-// import TeacherDashboard from "../pages/teacher/Dashboard";
-// import TeacherAssignments from "../pages/teacher/Assignments";
-// import TeacherExams from "../pages/teacher/Exams";
-
 export const router = createBrowserRouter(
     [
         {
@@ -52,32 +42,6 @@ export const router = createBrowserRouter(
                         { path: '/admin/profile', element: <ProfilePage /> },
                     ]
                 },
-
-                // Student routes
-                // {
-                //     path: '/student',
-                //     element: <StudentDashboard />,
-                //     children: [
-                //         { path: '/student/assignments', element: <StudentAssignments /> },
-                //         { path: '/student/results', element: <StudentResults /> },
-                //     ]
-                // },
-
-                // Teacher routes
-                // {
-                //     path: '/teacher',
-                //     element: <TeacherDashboard />,
-                //     children: [
-                //         { path: '/teacher/assignments', element: <TeacherAssignments /> },
-                //         { path: '/teacher/exams', element: <TeacherExams /> },
-                //     ]
-                // },
-
-                // Default route (Not Found)
-                // {
-                //     path: '*',
-                //     element: <h1>Not Found</h1>
-                // }
             ]
         }
     ]
